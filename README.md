@@ -56,21 +56,12 @@ app.get('/logout', (req, res) => {
 **store/auth.js**
 ```js
 export const state = () => ({
-  authenticated: false,
-  showAdminOverlay: false
+  authenticated: false
 })
 
 export const mutations = {
   setAuthenticated(state, status) {
     state.authenticated = status
-  },
-  adminOverlay(state, status) {
-    if (!status) {
-      state.showAdminOverlay = !state.showAdminOverlay
-      return
-    }
-
-    state.showAdminOverlay = status
   }
 }
 
