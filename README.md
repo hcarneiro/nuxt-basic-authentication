@@ -2,6 +2,8 @@
 
 > An example project on how to use HTTP authorization in Nuxt.js
 
+<img width="1147" alt="Nuxt Basic Authentication" src="https://user-images.githubusercontent.com/7046481/58576940-527c3b00-823d-11e9-8267-189d9a7ae71b.png">
+
 ## Files to look for
 **config/authentication.js**
 ```js
